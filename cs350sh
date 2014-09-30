@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while :
+do
+	echo -n "cs350sh> "
+	read line
+	eval "$line"
+	done
+exit 0
+
